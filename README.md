@@ -10,3 +10,4 @@ cz-conventional-changelog: 是搭配Commitizen的一个适配器，定义了对�
 @commitlint/cli: 可以对commit 信息进行校验
 @commitlint/config-conventional： 集成了一些常用commit 信息进行校验规则，搭配@commitlint/cli使用
 
+## 
