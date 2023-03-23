@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npx command-tool commit
+exec < /dev/tty && npx command-tool commit --hook || true
