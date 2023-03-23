@@ -3,4 +3,4 @@
 require('yargs')
     .commandDir('lib')
     .alias('h', 'help')
-    .parse() 
+    .parse()
